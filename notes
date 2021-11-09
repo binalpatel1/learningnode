@@ -1,0 +1,17 @@
+
+<!--<% if(name) { %>if you dont put name after
+port it gonna diss apearwhole h1 blok from page or
+you can use
+ if (typeof name != 'undefine')<h2>welcome <%= name %></h2><%  } %>--> content from html
+
+
+
+ app.get('/:name?',(req,res)=>{//parameter passing on route localhost:3000/prince then it scrin print name or it empty
+ //var name = req.params.name;
+  //if (name){
+   //res.render('index.ejs', {name: name});//in html file u can print data in h2 tag
+ //}else {
+   //res.render('index.ejs',{name:false});
+ //}
+ //
+  });
